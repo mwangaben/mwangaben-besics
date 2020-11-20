@@ -1,0 +1,25 @@
+{
+    "name": "mwangaben/basics",
+    "description": "Learning Laravel Service Provider",
+    "type": "package",
+    "require": {
+        "illuminate/support": "^8.15"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mwangaben\\Basics\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mwangaben\\Basics\\Tests\\": "tests"
+        }
+    },
+    "authors": [{
+        "name": "Benedict Mwanga",
+        "email": "mwangaben@gmail.com"
+    }]
+}
