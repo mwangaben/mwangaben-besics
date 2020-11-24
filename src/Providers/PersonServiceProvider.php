@@ -9,7 +9,7 @@ class PersonServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        $this->app('person', function () {
+        $this->app->bind('person', function () {
             return new Person();
         });
     }
